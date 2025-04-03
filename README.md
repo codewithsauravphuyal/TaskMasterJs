@@ -1,5 +1,5 @@
 # Task Management System
-![Project Live](https://task-master-js.vercel.app/)
+[Project Live](https://task-master-js.vercel.app/)
 
 ## Screenshot
 ![Screenshot 1](https://raw.githubusercontent.com/codewithsauravphuyal/TaskMasterJs/refs/heads/main/Screenshot/Screenshot%202025-04-03%20100607.png)
