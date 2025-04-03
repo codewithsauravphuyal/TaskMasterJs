@@ -39,7 +39,7 @@ Ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/task-management-system.git
+   git clone https://github.com/codewithsauravphuyal/TaskMasterJS
    ```
 2. **Navigate to the project directory:**
    ```bash
