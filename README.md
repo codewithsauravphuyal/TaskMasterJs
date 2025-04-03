@@ -1,6 +1,10 @@
 # Task Management System
 
-![Task Manager]([http](https://task-master-js.vercel.app/))
+## Screenshot
+![Screenshot 1](https://raw.githubusercontent.com/codewithsauravphuyal/TaskMasterJs/refs/heads/main/Screenshot/Screenshot%202025-04-03%20100607.png)
+![Screenshot 2]([url-to-screenshot-2](https://raw.githubusercontent.com/codewithsauravphuyal/TaskMasterJs/refs/heads/main/Screenshot/Screenshot%202025-04-03%20100643.png))
+![Screenshot 3]([url-to-screenshot-3](https://raw.githubusercontent.com/codewithsauravphuyal/TaskMasterJs/refs/heads/main/Screenshot/Screenshot%202025-04-03%20100651.png))
+
 
 A modern task management application built with **Next.js, React, and Tailwind CSS**, developed as part of the **Hunchha Digital Internship Program**.
 
