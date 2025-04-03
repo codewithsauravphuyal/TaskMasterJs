@@ -43,7 +43,7 @@ Ensure you have the following installed:
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd task-management-system
+   cd TaskMasterJS
    ```
 3. **Install dependencies:**
    ```bash
