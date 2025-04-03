@@ -5,7 +5,6 @@ import { useTasks } from '../context/TaskContext';
 const FilterControls = () => {
   const { filter, setFilter } = useTasks();
 
-
   return (
     <div className="flex space-x-4 mb-6">
       <button
