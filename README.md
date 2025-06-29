@@ -1,6 +1,14 @@
 # Task Management System
+[Project Live](https://task-master-js.vercel.app/)
 
+<<<<<<< HEAD
 ![App Screenshot](./Screenshot/Screenshot%202025-04-03%20100607.png)
+=======
+## Screenshot
+![Screenshot 1](https://raw.githubusercontent.com/codewithsauravphuyal/TaskMasterJs/refs/heads/main/Screenshot/Screenshot%202025-04-03%20100607.png)
+![Screenshot 2](https://raw.githubusercontent.com/codewithsauravphuyal/TaskMasterJs/refs/heads/main/Screenshot/Screenshot%202025-04-03%20100643.png)
+![Screenshot 3](https://raw.githubusercontent.com/codewithsauravphuyal/TaskMasterJs/refs/heads/main/Screenshot/Screenshot%202025-04-03%20100651.png)
+>>>>>>> 4807acaab3d37afd1f0089c5c6635eb92c30ad03
 
 A modern, responsive task management application built with **Next.js, React, and Tailwind CSS**. Easily manage your daily tasks with features like filtering, status updates, persistent local storage, and a beautiful, professional UI.
 
@@ -35,11 +43,19 @@ A modern, responsive task management application built with **Next.js, React, an
 
 1. **Clone the repository:**
    ```bash
+<<<<<<< HEAD
    git clone https://github.com/your-username/hunchha_JS.git
    ```
 2. **Navigate to the project directory:**
    ```bash
    cd hunchha_JS
+=======
+   git clone https://github.com/codewithsauravphuyal/TaskMasterJS
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd TaskMasterJS
+>>>>>>> 4807acaab3d37afd1f0089c5c6635eb92c30ad03
    ```
 3. **Install dependencies:**
    ```bash
@@ -143,7 +159,12 @@ Distributed under the **MIT License**. See `LICENSE` for more details.
 
 **Saurav Phuyal**  
 📩 Email: [codewithsauravphuyal@gmail.com](mailto:codewithsauravphuyal@gmail.com)  
+<<<<<<< HEAD
 🔗 GitHub: [sauravphuyal](https://github.com/sauravphuyal)
+=======
+🔗 GitHub: [codewithsauravphuyal](https://github.com/codewithsauravphuyal)  
+🔗 LinkedIn: [sauravphuyal](https://www.linkedin.com/in/sauravphuyal/)  
+>>>>>>> 4807acaab3d37afd1f0089c5c6635eb92c30ad03
 
 ## 🌟 Acknowledgments
 
