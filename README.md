@@ -1,56 +1,56 @@
 # Task Management System
 
-![Task Manager]([http](https://task-master-js.vercel.app/))
+![App Screenshot](./Screenshot/Screenshot%202025-04-03%20100607.png)
 
-A modern task management application built with **Next.js, React, and Tailwind CSS**, developed as part of the **Hunchha Digital Internship Program**.
+A modern, responsive task management application built with **Next.js, React, and Tailwind CSS**. Easily manage your daily tasks with features like filtering, status updates, persistent local storage, and a beautiful, professional UI.
 
 ## 🚀 Features
 
 - 📝 **Task Management**: Create, update, and delete tasks effortlessly.
 - ✅ **Task Status**: Mark tasks as complete or incomplete.
-- 🔍 **Filtering & Sorting**: Filter tasks by status (All, Pending, Completed) and priority (High, Medium, Low).
+- 🔍 **Filtering**: Filter tasks by status (All, Pending, Completed) and priority (High, Medium, Low).
+- 🔎 **Search**: Instantly search tasks by title or description.
+- ⚡ **Global Delete Confirmation**: Deleting a task triggers a modern, centered confirmation dialog overlaying the dashboard.
 - 📱 **Responsive Design**: Works across all devices.
 - 💾 **Local Storage Persistence**: Your tasks remain even after refreshing the page.
 - ⚠️ **Confirmation Dialogs**: Critical actions require confirmation to prevent mistakes.
-- 🔍 **Form Validation**: Ensures accurate data entry.
+- 🖋️ **Form Validation**: Ensures accurate data entry.
+- 🎨 **Modern UI/UX**: Clean layout, beautiful cards, smooth transitions, and accessible controls.
 
 ## 🛠️ Technologies Used
 
 - [Next.js](https://nextjs.org/) - React framework for modern web applications.
 - [React](https://react.dev/) - JavaScript library for UI development.
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework for styling.
-- [Next/font](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) - Font optimization.
 - [ESLint](https://eslint.org/) - JavaScript linter for code quality.
 
 ## 📌 Getting Started
 
-### ✅ Prerequisites
-
-Ensure you have the following installed:
+### Prerequisites
 
 - **Node.js** (v18 or later recommended)
 - **npm**, **yarn**, or **pnpm**
 
-### 📥 Installation
+### Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/task-management-system.git
+   git clone https://github.com/your-username/hunchha_JS.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd task-management-system
+   cd hunchha_JS
    ```
 3. **Install dependencies:**
    ```bash
    npm install
    # or
-   yarn install
+yarn install
    # or
    pnpm install
    ```
 
-### 🏃 Running the Development Server
+### Running the Development Server
 
 ```bash
 npm run dev
@@ -60,7 +60,7 @@ yarn dev
 pnpm dev
 ```
 
-### 📦 Building for Production
+### Building for Production
 
 ```bash
 npm run build
@@ -70,7 +70,7 @@ yarn build
 pnpm build
 ```
 
-### 🚀 Start the Production Server
+### Start the Production Server
 
 ```bash
 npm start
@@ -83,38 +83,55 @@ pnpm start
 ## 📂 Project Structure
 
 ```
-task-management-system/
-├── app/
-│   ├── client/
-│   │   └── tasks/            # Tasks page and related components
-│   ├── layout.js             # Root layout
-│   └── page.js               # Home page
-├── components/               # Reusable components
-├── context/                  # React context providers
-├── lib/                      # Utility functions and types
-├── public/                   # Static assets
-├── styles/                   # Global styles
-├── next.config.js            # Next.js configuration
-├── package.json              # Project dependencies
-└── README.md                 # Project documentation
+hunchha_JS/
+├── src/
+│   ├── app/
+│   │   ├── client/
+│   │   │   └── tasks/            # Tasks page and related components
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.js             # Root layout
+│   │   └── page.js               # Home page
+│   ├── component/                # Reusable UI components
+│   ├── context/                  # React context providers
+│   └── lib/                      # Utility functions and constants
+├── public/                       # Static assets
+├── Screenshot/                   # App screenshots
+├── package.json                  # Project dependencies
+└── README.md                     # Project documentation
 ```
+
+## 🎛️ Filter & Search Controls
+
+The app provides intuitive filter and search controls to help you view tasks by their status or quickly find tasks:
+
+- **All**: Shows every task.
+- **Pending**: Shows only tasks that are not completed.
+- **Completed**: Shows only tasks that are marked as completed.
+- **Search**: Instantly filter tasks by typing in the search box.
+
+You can switch between these filters using the buttons at the top of the task list. The active filter is highlighted for clarity.
+
+## 🗑️ Global Delete Confirmation
+
+When you press the delete button on any task, a modern confirmation dialog appears **centered between the form and the task list**, overlaying the dashboard. This ensures you never accidentally delete a task and provides a professional, user-friendly experience.
 
 ## 🤝 Contributing
 
-Contributions are always welcome! Follow these steps to contribute:
+Contributions are welcome! To contribute:
 
 1. **Fork the repository**
 2. **Create a feature branch**
    ```bash
-   git checkout -b feature/AmazingFeature
+   git checkout -b feature/YourFeature
    ```
 3. **Commit your changes**
    ```bash
-   git commit -m 'Add some AmazingFeature'
+   git commit -m 'Add YourFeature'
    ```
 4. **Push to the branch**
    ```bash
-   git push origin feature/AmazingFeature
+   git push origin feature/YourFeature
    ```
 5. **Open a Pull Request**
 
@@ -126,46 +143,13 @@ Distributed under the **MIT License**. See `LICENSE` for more details.
 
 **Saurav Phuyal**  
 📩 Email: [codewithsauravphuyal@gmail.com](mailto:codewithsauravphuyal@gmail.com)  
-🔗 GitHub: [your-username](https://github.com/your-username)  
+🔗 GitHub: [sauravphuyal](https://github.com/sauravphuyal)
 
 ## 🌟 Acknowledgments
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [React Documentation](https://react.dev/docs)
-- **Hunchha Digital** for the internship opportunity.
-
----
-
-### 📄 Additional Notes
-
-#### 📌 Adding a License File
-
-Create a `LICENSE` file in your project root with the following content:
-
-```
-MIT License
-
-© [2025] Saurav Phuyal
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
 
 ---
 
